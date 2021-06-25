@@ -15,6 +15,7 @@
 		50E675D2268675CA006CF22B /* Landmarks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E675D0268675CA006CF22B /* Landmarks.xcdatamodeld */; };
 		50E675DD268675CA006CF22B /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E675DC268675CA006CF22B /* LandmarksTests.swift */; };
 		50E675E8268675CA006CF22B /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E675E7268675CA006CF22B /* LandmarksUITests.swift */; };
+		50E675F626867A0C006CF22B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E675F526867A0C006CF22B /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		50E675E3268675CA006CF22B /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E675E7268675CA006CF22B /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		50E675E9268675CA006CF22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E675F526867A0C006CF22B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		50E675B9268675C9006CF22B = {
 			isa = PBXGroup;
 			children = (
+				50E675F526867A0C006CF22B /* CircleImage.swift */,
 				50E675C4268675C9006CF22B /* Landmarks */,
 				50E675DB268675CA006CF22B /* LandmarksTests */,
 				50E675E6268675CA006CF22B /* LandmarksUITests */,
@@ -269,6 +272,7 @@
 				50E675C8268675C9006CF22B /* ContentView.swift in Sources */,
 				50E675C6268675C9006CF22B /* LandmarksApp.swift in Sources */,
 				50E675D2268675CA006CF22B /* Landmarks.xcdatamodeld in Sources */,
+				50E675F626867A0C006CF22B /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
