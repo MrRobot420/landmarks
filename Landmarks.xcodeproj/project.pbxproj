@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		5001725126871734009FDAC5 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5001725026871734009FDAC5 /* LandmarkDetail.swift */; };
 		504530B5268CCABF00035832 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504530B4268CCABF00035832 /* Profile.swift */; };
-		504530B8268CCBE000035832 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504530B7268CCBE000035832 /* ProfileHost.swift */; };
 		504530BA268CCC9A00035832 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504530B9268CCC9A00035832 /* ProfileSummary.swift */; };
 		504530BC268CD34C00035832 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504530BB268CD34C00035832 /* HikeBadge.swift */; };
 		504530BE268CED5F00035832 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504530BD268CED5F00035832 /* ProfileEditor.swift */; };
+		504530C0268CF19800035832 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504530BF268CF19800035832 /* ProfileHost.swift */; };
 		5057719F268A41C2004C3229 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057719E268A41C2004C3229 /* FavoriteButton.swift */; };
 		505771A3268A47D9004C3229 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505771A2268A47D9004C3229 /* HexagonParameters.swift */; };
 		505771A5268A4A00004C3229 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505771A4268A4A00004C3229 /* BadgeBackground.swift */; };
@@ -65,10 +65,10 @@
 /* Begin PBXFileReference section */
 		5001725026871734009FDAC5 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		504530B4268CCABF00035832 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		504530B7268CCBE000035832 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		504530B9268CCC9A00035832 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		504530BB268CD34C00035832 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		504530BD268CED5F00035832 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		504530BF268CF19800035832 /* ProfileHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		5057719E268A41C2004C3229 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		505771A2268A47D9004C3229 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		505771A4268A4A00004C3229 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -135,8 +135,8 @@
 		504530B6268CCBCA00035832 /* Profiles */ = {
 			isa = PBXGroup;
 			children = (
-				504530B7268CCBE000035832 /* ProfileHost.swift */,
 				504530B9268CCC9A00035832 /* ProfileSummary.swift */,
+				504530BF268CF19800035832 /* ProfileHost.swift */,
 				504530BD268CED5F00035832 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
@@ -427,12 +427,12 @@
 				508D18EB268686E20086692D /* Landmark.swift in Sources */,
 				505771AB268A526C004C3229 /* Badge.swift in Sources */,
 				504530BE268CED5F00035832 /* ProfileEditor.swift in Sources */,
+				504530C0268CF19800035832 /* ProfileHost.swift in Sources */,
 				504530BA268CCC9A00035832 /* ProfileSummary.swift in Sources */,
 				50E675CF268675CA006CF22B /* Persistence.swift in Sources */,
 				504530B5268CCABF00035832 /* Profile.swift in Sources */,
 				508D18E726867BD30086692D /* MapView.swift in Sources */,
 				5057719F268A41C2004C3229 /* FavoriteButton.swift in Sources */,
-				504530B8268CCBE000035832 /* ProfileHost.swift in Sources */,
 				50E675C8268675C9006CF22B /* ContentView.swift in Sources */,
 				50FDFC0B268B97BB00B631F1 /* Hike.swift in Sources */,
 				50E675C6268675C9006CF22B /* LandmarksApp.swift in Sources */,
