@@ -36,6 +36,9 @@ struct ProfileSummary: View {
                             HikeBadge(name: "Tenth Hike")
                                 .grayscale(0.5)
                                 .hueRotation(Angle(degrees: 45))
+                            HikeBadge(name: "World Hike Day")
+                                .grayscale(0.5)
+                                .hueRotation(Angle(degrees: 45))
                         }
                     }
                     
