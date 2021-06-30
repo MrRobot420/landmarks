@@ -7,7 +7,7 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
     @Binding var currentPage: Int
 
     func makeCoordinator() -> Coordinator {
-        Coordinator(self)
+        return Coordinator(self)
     }
 
     func makeUIViewController(context: Context) -> UIPageViewController {
