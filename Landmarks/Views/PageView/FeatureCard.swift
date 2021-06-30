@@ -7,9 +7,11 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct FeatureCard: View {
     var landmark: Landmark
-    
+
     var body: some View {
         landmark.featureImage?
             .resizable()
@@ -20,16 +22,15 @@ struct FeatureCard: View {
 
 struct TextOverlay: View {
     var landmark: Landmark
-    
+
     var gradient: LinearGradient {
         LinearGradient(
             gradient: Gradient(
-            colors: [Color.black.opacity(0.6), Color.black.opacity(0)]),
+                colors: [Color.black.opacity(0.6), Color.black.opacity(0)]),
             startPoint: .bottom,
-            endPoint: .center
-        )
+            endPoint: .center)
     }
-    
+
     var body: some View {
         ZStack(alignment: .bottomLeading) {
             Rectangle().fill(gradient)
